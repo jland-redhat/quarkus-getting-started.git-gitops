@@ -1,0 +1,11 @@
+app:
+  name: my-quarkus-app-2
+
+git:
+  branch: main
+  repo: https://github.com/jaland/quarkus-getting-started.git
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: my-quarkus-dev/my-quarkus-app-2
+  tag: latest
